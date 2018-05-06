@@ -15,13 +15,37 @@ send to a repository with a single commit.
 How can you use the staging area to make sure you have one commit per logical
 change?
 
+With staging area you have the option to select only the files that you wish to combine
+and send for a commit based on their logical relevance, despite working on multiple
+things across multiple files.
+
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+Branches can be useful while you want to try out a new feature or when the feature
+you wish to implement can take longer time, thus you don't want to block your main
+branch in case of some bugs.
+
 How do the diagrams help you visualize the branch structure?
+
+It is easier to understand and follow a trail of commits for a branch once you
+get to see the parent/child relationship for a commit, which can help trace back its
+root.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+When we merge two branches, it combines the commit history of the two branches, making
+it easier to navigate the commits linearly, thus we have a single place where everything
+is assured to be working although everyone has worked on different file at different times,
+the changes are now all synched. The diagram helps with visualizing all the commits for
+a better understanding of why is whatever it is.
+
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
+
+It can save time when git can automatically identify the changes and merge them automatically
+but at the same time it could be a problem if it merged changes in a way which made sense
+as per the rules of git but not particularly in a way we would have wanted to, thus the
+manual mode is what can be helpful when we really want to have a look and see what are the
+changes that are causing an issue and can resolve it in a way we want.
