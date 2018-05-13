@@ -1,29 +1,51 @@
 When would you want to use a remote repository rather than keeping all your work
 local?
 
-    Fill in your answer here
+It is nice to have a remote repository in case you wish to share your code with
+others, or you're working with multiple people on the same project, thus once
+you have your changes commited and ready to be pushed to the remote repository
+so that others can also get the latest copy of your work whenever they wish, thus
+the work remains in sync.
 
 Why might you want to always pull changes manually rather than having Git
 automatically stay up-to-date with your remote repository?
 
-    Fill in your answer here
+Getting changes automatically from remote repository might be problematic while
+you're in the midst of working on something in your local machine and the changes
+get synched at the same time which might break something that you're currently
+working on and can leave you trying to find out what caused the issue, thus it
+can be nice to get changes only when you feel are necessary.
 
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
 
-    Fill in your answer here
+Branches are snapshots of a repository that can be worked upon parallelly and
+later can be merged into one. A clone is when you make an exact copy of a repository
+along with it's history, a clone can be of a repository available locally or
+one that is hosted on a platform like GitHub. Fork is the same as a clone with the
+exception that fork can only be done on repository hosted on GitHub and not locally,
+thus forking a repository just means making a clone of it on GitHub server.
 
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
-    Fill in your answer here
+It helps to avoid situations where the commit state of two of the branches in local
+and remote may have changed over time, it can be helpful to compare the branches
+while working offline and then later merge the changes.
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 
-    Fill in your answer here
+If not collaborating via Git and GitHub, assuming that we don't have any other source
+control systems as well as hosting platforms available, I will work on trying to develop one
+as that is what led to the development of these systems as otherwise it will be very difficult
+in traditional keep a copy of file(s) and label it with a meaningful name way, which is far
+from being helpful in collaboration.
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+It is a good idea to create a new branch every time you're to experiment with some new feature
+or you're working on trying to a bug, it helps with keeping those changes separate from working
+code and also eliminates the need to undo your changes in case you're to return back to your
+working branch, thus you can return to it any time without losing your work.
